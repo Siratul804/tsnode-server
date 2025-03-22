@@ -1,0 +1,51 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build Output
+dist/
+build/
+coverage/
+*.tsbuildinfo
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+.vscode/
+.idea/
+
+# Docker
+docker-compose.override.yml
+docker-compose.override*.yml
+
+# Ignore TypeScript cache
+*.tsbuildinfo
+
+# Ignore compiled TypeScript
+*.js
+*.js.map
+*.d.ts
+
+# Optional: Ignore test coverage reports
+coverage/
+
+# Ignore uploads or temporary files
+/uploads
+/temp
